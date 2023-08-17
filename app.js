@@ -9,7 +9,8 @@ const passportLocalMongoose = require("passport-local-mongoose");
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 /*its a new constant called googlestrategy and it uses the passport-google-oauth20 package that we installed just now
 and we're going to use it as a passport strategy.*/
-const findOrCreate = require("mongoose-findorcreate");
+const findOrCreate = require("mongoose-findorcreate"); 
+
 //we don't need to require passport-local separately as it will be required by passport-local-mongoose.
 // import bcrypt from "bcrypt";
 // const saltRounds = 10;
